@@ -9,7 +9,7 @@ client.on('ready', () => {
 //PING
 client.on('message', msg => {
   if (msg.content === '^^ping') {
-    msg.channel.send('Pong! ${client.pings[0]}ms');
+    msg.channel.send('Pong!');
   }
 });
 
@@ -68,7 +68,7 @@ client.on('message', message => {
 //INVITE
 client.on('message', msg => {
   if (msg.content === '^^invite') {	  
-    msg.channel.send('**Invite EzeBot. »** https://bit.ly/2KEmt1f');	
+    msg.channel.send('**Invite EzeBot. »** https://bit.ly/2LkuERM');	
   }
 });
 
@@ -86,4 +86,4 @@ client.on('message', msg => {
   }
 });
 
-client.login('NDQzODcxOTMyNDkyODA4MTk0.DeVQ6g.ouX-2V6mOCqhNcN8XZ99KYUDu6Q');
+client.login('NDQ4MzkxNjg1OTIwMTI5MDI0.DeVc1A.4-LAkw_B6mLKN_Jt2ml6jx17JOY');
