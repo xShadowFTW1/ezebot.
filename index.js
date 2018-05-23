@@ -74,9 +74,9 @@ client.on('message', msg => {
 
 //WELCOME
 client.on('guildMemberAdd' , member => {               //You can Change The Name
-  const channel = member.guild.channels.find('name', 'welcome');
+  const channel = member.guild.channels.find('name', 'chatbox');
   if (!channel) return;
- channel.send(`Hey ${member}, welcome to server :tada::hugging: !`);
+ channel.send(`Welcome`);
 });
 
 //SUPPORT
